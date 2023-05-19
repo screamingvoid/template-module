@@ -4,7 +4,7 @@
   "description": "Module template for Void project",
   "main": "lib/index.js",
   "types": "types",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": {
     "name": "Tomas Ravinskas",
     "email": "tomas@tomasrav.me",
