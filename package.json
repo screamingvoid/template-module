@@ -11,6 +11,10 @@
     "url": "https://tomasrav.me"
   },
   "private": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com",
+    "access": "public"
+  },
   "scripts": {
     "build": "yarn types && swc -D src -d lib",
     "watch": "swc -D -w src -d lib",
