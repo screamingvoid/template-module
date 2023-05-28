@@ -10,11 +10,17 @@
     "email": "tomas@tomasrav.me",
     "url": "https://tomasrav.me"
   },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "private": true,
   "publishConfig": {
     "registry": "https://registry.npmjs.com",
     "access": "public"
   },
+  "files": [],
   "scripts": {
     "build": "yarn types && swc -D src -d lib",
     "watch": "swc -D -w src -d lib",
